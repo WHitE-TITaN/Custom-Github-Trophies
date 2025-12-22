@@ -13,7 +13,7 @@ class RankCondition {
 let wantAchieveSuperRank = false;
 let wantMultipleLang = true;
 let wantLongTimeAccount = true;
-let wantAncientAccount = false;
+let wantAncientAccount = true;
 let wantNewAccount = false;
 let wantMultipleOrganizations = true;
 
