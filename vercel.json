@@ -1,7 +1,7 @@
 {
-    "builds":[{
-        "src": "**/index.ts",
-        "use": "vercel-deno@1.1.1"
-    }],
-    "routes": [{ "src": "/.*", "dest": "/" }]
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
